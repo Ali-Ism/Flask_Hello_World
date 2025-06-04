@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: 📦 Cloner le repos
-      uses: actions/checkout@v3,
+      uses: actions/checkout@v4,
 
     
     - name: 🐳 Construire l'image Docker
